@@ -1,0 +1,246 @@
+/*reset stylesheet*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    margin: 0;
+	padding:0;
+	font-family: Bree Serif;
+}
+/*
+body {
+    line-height:1;
+}
+*/
+
+article,aside,details,figcaption,figure, footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top: 1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*Main Code*/
+* {
+    font-family: Helvetica, Ariel, "Courier New";
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    /*
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 1.5%; 
+    */
+    background-position: center;
+	background-size: cover; 
+	height: 100vh;
+
+}
+
+h1{
+    font-size: 2.5em;
+    font-weight: bolder;
+    display: block;
+}
+
+.pages {
+    display: block;
+ justify-content: space-between;
+    margin:42px;
+    float: right;
+    font-weight: bold;
+}
+
+.pages div, a {
+    padding: 5px;
+    font-size: 100%;
+    color: #ffffff;
+    transition: .4s ease-in-out;
+}
+
+.pages div, a:hover {
+    color: #000000;
+}
+
+.accordian {
+    width: 210px;
+    height: fit-content;
+    margin: 20px 10px 0;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+    background: #d9d9d9;   
+    border-radius: 10px;
+}
+
+.accordian-content {
+    display: block;
+    transition: 1.5s ease-in-out;
+}
+
+.accordian:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    -webkit-transform : scale(1.1);
+    -ms-transform : scale(1.1);
+    transform: scale(1.1);
+    text-align: center;
+    margin: 20px 30px 30px;
+}
+
+.icon {
+/*    background: #ffffff;
+*/    width: 25%;
+}
+
+.form-horizontal{
+    text-align: center;
+    margin: 15px;
+}
+
+.col{
+    font-weight: bold;
+    margin: 5px;
+}
+
+footer{
+    margin-top: auto;
+}
+.footer {
+    text-align: center;
+    margin: 10px;
+}
+
+.fa-linkedin{
+    background: #0e76a8;
+    color: white;
+}
+
+/*customer_info.php*/
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+	margin-top: 15px;
+}
+
+.main{
+	max-width: 1200px;
+	margin:auto;
+	top:1%;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 15px;
+
+}
+
+ul li{
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	
+}
+ 
+ul li a {
+	text-decoration: none;
+	color:#fff;
+	padding : 5px 20px;
+	border :none;
+	transition: 0.1s ease;
+	margin-top: 15px;
+}
+
+ul li a:hover{
+	background-color: #B3B6B7;
+	color: #fff;
+}
+
+
+
+/*----------------*/
+
